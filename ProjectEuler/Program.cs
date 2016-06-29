@@ -14,7 +14,10 @@ namespace ProjectEuler
 	{
 		public static void Main(string[] args)
 		{
-			P87.solve();
+			P204 p = new P204((long) Math.Pow(10,9));
+			
+			p.solve(100);
+			
 			Console.Write("\n\nPress any key to continue . . . ");
 			Console.ReadKey(true);
 		}

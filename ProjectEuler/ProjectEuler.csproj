@@ -45,6 +45,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fraction.cs" />
+    <Compile Include="P100.cs" />
+    <Compile Include="P179.cs" />
+    <Compile Include="P204.cs" />
+    <Compile Include="P65.cs" />
+    <Compile Include="P79.cs" />
     <Compile Include="P87.cs" />
     <Compile Include="Primes.cs" />
     <Compile Include="Problem82.cs" />
@@ -55,6 +61,7 @@
     <EmbeddedResource Include="p82.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="p79.txt" />
     <None Include="p82_small.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
